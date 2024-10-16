@@ -3,24 +3,10 @@
 выполненные задания переносим в Архив(внизу файла)
 ==================================
 VSCODE(установить плагины):
-1)ms-python.pylint
-2)ms-python.flake8
-3)ms-python.mypy-type-checker
-4)matangover.mypy
-5)ms-pyright.pyright
-6)ms-python.black-formatter
-7)njpwerner.autodocstring
-8)njqdev.vscode-python-typehint
-9)KevinRose.vsc-python-indent
-10)mintlify.document
-11)streetsidesoftware.code-spell-checker
-12)eamodio.gitlens
-13)ms-vsliveshare.vsliveshare
+
 ==================================
 Git:
-1)подписаться на коллег https://github.com/orgs/SENATOROVAI/teams/senatorov-team
-2)оформить гитхаб https://www.youtube.com/watch?v=pm17VwdJ6UI
-3)выбор шаблона https://github.com/abhisheknaiidu/awesome-github-profile-readme
+
 4)https://t.me/c/1937296927/3602/5714 (опционально)
 ==================================
 Python:
@@ -166,6 +152,25 @@ https://vk.com/doc297168001_651784102
 ==================================
 ==================================
 Архив:
+VSCODE(установить плагины):
+1)ms-python.pylint
+2)ms-python.flake8
+3)ms-python.mypy-type-checker
+4)matangover.mypy
+5)ms-pyright.pyright
+6)ms-python.black-formatter
+7)njpwerner.autodocstring
+8)njqdev.vscode-python-typehint
+9)KevinRose.vsc-python-indent
+10)mintlify.document
+11)streetsidesoftware.code-spell-checker
+12)eamodio.gitlens
+13)ms-vsliveshare.vsliveshare
+
+Git:
+1)подписаться на коллег https://github.com/orgs/SENATOROVAI/teams/senatorov-team
+2)оформить гитхаб https://www.youtube.com/watch?v=pm17VwdJ6UI
+3)выбор шаблона https://github.com/abhisheknaiidu/awesome-github-profile-readme
 
 Python:
 
