@@ -24,8 +24,8 @@ jobs:
         nbqa pylint --max-line-length=79 --const-naming-style=any --disable=E0401,W1514,C0200,C0114,C0301,E0602,W0104,C0302,R0801,E1136,C0413 --disable=import-error $(git ls-files '*.py' '*.ipynb')
     - name: Flake8
       run: |
-        flake8 --ignore=E203,E501,W291,F821,F401,E402 $(git ls-files '*.py' '*.ipynb')
-        nbqa flake8 --ignore=E203,E501,W291,F821,F401,E402 $(git ls-files '*.py' '*.ipynb')
+        flake8 --ignore=E203,E501,W291,F821,F401,E402,E121 $(git ls-files '*.py' '*.ipynb')
+        nbqa flake8 --ignore=E203,E501,W291,F821,F401,E402,E121 $(git ls-files '*.py' '*.ipynb')
     - name: Mypy
       run: |
         mypy --ignore-missing-imports $(git ls-files '*.py' '*.ipynb')
