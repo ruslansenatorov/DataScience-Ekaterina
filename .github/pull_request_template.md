@@ -1,8 +1,6 @@
 ### Describe your change:
 
-Describe your changes HERE
 
-Fixes: #ISSUE-NUMBER
 
 * [ ] Add an algorithm?
 * [ ] Fix a bug or typo in an existing algorithm?
