@@ -5,9 +5,9 @@ body:
   - type: markdown
     attributes:
       value: >
-        Before requesting please search [existing issues](https://github.com/TheAlgorithms/Python/labels/bug).
+        Before requesting please search [existing issues](https://t.me/c/1937296927/3602).
         Usage questions such as "How do I...?"  belong on the
-        [Discord](https://discord.gg/c7MnfGFGa6) and will be closed.
+        [Telegram](https://t.me/RuslanSenatorov) and will be closed.
 
   - type: input
     attributes:
