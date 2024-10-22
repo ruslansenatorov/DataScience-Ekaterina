@@ -34,11 +34,11 @@ jobs:
       run: |
         isort --check-only --diff $(git ls-files '*.py' '*.ipynb')
         nbqa isort --check-only --diff $(git ls-files '*.py' '*.ipynb')
-    - name: Black
-      run: |
-        black --diff --line-length=79 $(git ls-files '*.py' '*.ipynb')
-        nbqa black --diff --line-length=79 $(git ls-files '*.py' '*.ipynb')
     - name: pyupgrade
       run: |
         pyupgrade $(git ls-files '*.py' '*.ipynb')
         nbqa pyupgrade $(git ls-files '*.py' '*.ipynb')
+    - name: Black
+      run: |
+        black --diff --line-length=79 $(git ls-files '*.py' '*.ipynb')
+        nbqa black --diff --line-length=79 $(git ls-files '*.py' '*.ipynb')    
