@@ -6,8 +6,6 @@ body:
     attributes:
       value: >
         Before requesting please search [existing issues](https://t.me/c/1937296927/3602/25534).
-        Usage questions such as "How do I...?"  belong on the
-        [Telegram](https://t.me/RuslanSenatorov) and will be closed.
 
   - type: input
     attributes:
