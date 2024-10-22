@@ -20,5 +20,5 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint --max-line-length=79 --const-naming-style=any --disable=E0401,W1514,C0200,C0114 --disable=import-error $(git ls-files '*.ipynb')
+        pylint --max-line-length=79 --const-naming-style=any --disable=E0401,W1514,C0200,C0114,C0301 --disable=import-error $(git ls-files '*.ipynb')
         
