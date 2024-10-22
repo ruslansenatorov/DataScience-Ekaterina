@@ -28,8 +28,8 @@ jobs:
         nbqa flake8 --ignore=E203,E501,W291,F821,F401,E402,E121 $(git ls-files '*.py' '*.ipynb')
     - name: Mypy
       run: |
-        mypy --ignore-missing-imports $(git ls-files '*.py' '*.ipynb')
-        nbqa mypy --ignore-missing-imports $(git ls-files '*.py' '*.ipynb')
+        mypy --ignore-missing-imports --scripts-are-modules --no-scripts-are-modules $(git ls-files '*.py' '*.ipynb')
+        nbqa mypy --ignore-missing-imports --scripts-are-modules --no-scripts-are-modules $(git ls-files '*.py' '*.ipynb')
     - name: isort
       run: |
         isort --check-only --diff $(git ls-files '*.py' '*.ipynb')
