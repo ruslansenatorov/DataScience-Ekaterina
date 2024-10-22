@@ -1,6 +1,8 @@
 ### Describe your change:
 
+ПИШЕМ ЗДЕСЬ ЧТО СДЕЛАЛИ, И ВМЕСТО 'ISSUE-NUMBER' вставляем номер 
 
+Fixes #ISSUE-NUMBER
 
 * [ ] Add an algorithm?
 * [ ] Fix a bug or typo in an existing algorithm?
