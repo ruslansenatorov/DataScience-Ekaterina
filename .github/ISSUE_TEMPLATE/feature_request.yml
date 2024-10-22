@@ -5,10 +5,7 @@ body:
   - type: markdown
     attributes:
       value: >
-        Before requesting please search [existing issues](https://t.me/c/1937296927/3602).
-        Do not create issues to implement new algorithms as these will be closed.
-        Usage questions such as "How do I...?"  belong on the
-        [Discord](https://t.me/RuslanSenatorov) and will be closed.
+        Before requesting please search [existing issues](https://t.me/c/1937296927/3602/25534).
 
   - type: textarea
     attributes:
